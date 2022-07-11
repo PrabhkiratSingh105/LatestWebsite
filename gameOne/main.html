@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplye</title>
+    <link rel="icon" href="logo.png">
+
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+        input[type=number] input[type=text]{
+          -moz-appearance: textfield;
+          width: 36.5vw;
+          height: 3vw;
+        }
+        body{
+          vertical-align: middle;
+          margin-top: 25%;
+          background-color: cadetblue;
+        }
+        .na{
+          position: absolute;
+          top : 50%;
+          left: 50%;
+          -ms-transform: translate(-50%, -50%);
+          transform    : translate(-50%, -50%); 
+          background-color: aquamarine;
+          vertical-align: middle;
+          justify-content: center;
+          border-radius: 5%;
+          text-align: center;
+          border: 1px dotted black;
+          width: 30vw;
+          height: 18vw;
+        }
+    </style>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+</head>
+<body bgcolor="cadetblue">
+    <center>
+      <div class="form" bgcolor="aquamarine" style="border: 1px dotted whitesmoke">
+        <input class="item" type="text" name="" id="name" placeholder="Enter your name" autocomplete="off" Required><br>
+        <p>Enter range</p>
+        <input required class="item range" type="number" name="" id="range_one">TO
+        <input required class="item range" type="number" name="" id="range_two"><br>
+        <span class="ra" id="ra_1"></span>
+        <span></span><br>
+        <input value="9" class="item" type="number" id="questions" placeholder="How many questions you want to attempt? {max 30}">
+        <button id="button">Submit</button>
+      </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>

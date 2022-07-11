@@ -17,13 +17,13 @@ body {
 }
 
 .content-- {
-    /* position: fixed; */
     display: inline-block;
     margin: 35px;
     margin-top: 15px;
+    cursor: pointer;
     background-color: whitesmoke;
     width: 200px;
-    height: 200px;
+    height: 175px;
     border: 1px solid black;
     border-radius: 15px;
 }
@@ -46,8 +46,6 @@ body {
     float: left;
 }
 
-.home:hover {}
-
 .header_other:hover {
     text-decoration: underline;
 }
@@ -59,4 +57,91 @@ body {
 
 .like-image {
     display: inline-block;
+}
+
+.counter-count {
+    margin: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.counter-text {
+    font-size: 25px;
+    margin: 15px;
+}
+
+.image-yt{
+    float: right;
+    margin: 5px;
+    display: inline-block;
+}
+
+.image-yt-yt {
+    width: 100%;
+    height: 450px;
+}
+
+.grow_yt {
+    margin: 5px;
+    border: 1px solid rebeccapurple;
+}
+
+.text-yt {
+    display: inline-block;
+    height: 463px;
+    width: 60%;
+}
+
+.heading {
+    font-family: 'Oswald', sans-serif;
+    color: blueviolet;
+    width: 100%;
+    text-align: center;
+    font-size: 29px;
+    margin: 30px;
+}
+
+.gyt {
+    margin: 12px;
+    padding: 4px;
+    font-size: 25px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.content--:hover {
+    box-shadow: 0 0 5px 5px black;
+}
+
+.gyt-- {
+    width: 230px;
+    height: 50px;
+    margin: 15px;
+    font-size: 32px;
+    background-color: aqua;
+    border: 1px solid brown;
+}
+
+.gyt--:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+.text-download {
+    float: right;
+    width: 56%;
+}
+
+.learning-image {
+    height: 99%;
+    width: 450px;
+    margin: 5px;
+}
+
+.image-download {
+    width: 100%;
+    height: 450px;
+}
+
+body {
+    /* background-color: aquamarine; */
 }

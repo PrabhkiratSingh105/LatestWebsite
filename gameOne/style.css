@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: aquamarine;
+}
+
+#show {
+    color: blueviolet;
+    font-size: 12vw;
+    text-align: center;
+    font-family: 'Arima', cursive;
+}
+
+.tp {
+    width: 85%;
+    height: 3vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#score {
+    font-size: 0;
+}
+
+#correct_wrong {
+    font-size: 0;
+}
+
+#high_score {
+    font-size: 0;
+}
+
+#check {
+    background-color: darkviolet;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    color: whitesmoke;
+    width: 125px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#check:hover {
+    background-color: whitesmoke;
+    color: darkviolet;
+}
+
+#timer {
+    color: red;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
